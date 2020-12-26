@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LYEncrypt (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LYEncrypt (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LYEncrypt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LYEncrypt: 6aba6271175225346ddf9fae86ddda17c6fa8164
+
+PODFILE CHECKSUM: 462bee650f217704b73452d6fd9f421ef3460063
+
+COCOAPODS: 1.8.4

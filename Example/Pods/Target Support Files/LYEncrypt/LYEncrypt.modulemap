@@ -1,0 +1,6 @@
+framework module LYEncrypt {
+  umbrella header "LYEncrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}
