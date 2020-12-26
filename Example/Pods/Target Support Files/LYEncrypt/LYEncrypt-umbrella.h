@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XZCIGDataSource.h"
 
 FOUNDATION_EXPORT double LYEncryptVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYEncryptVersionString[];

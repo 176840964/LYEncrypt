@@ -7,55 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		054759CB110D9D02705D88D1B0DD8525 /* Pods-LYEncrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B0D3F89B7563A433DC00B4B7E54098 /* Pods-LYEncrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2451A991C7F5F7A5A3EB26E42D4A1A46 /* LYEncrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA1F44B989787D98EA5F54471ECCFE7 /* LYEncrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		821F01E2259773060064127D /* XZCIGDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F01E0259773060064127D /* XZCIGDataSource.m */; };
-		821F01E3259773060064127D /* XZCIGDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 821F01E1259773060064127D /* XZCIGDataSource.h */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		A58015D7AC40F260307825F15E4678DB /* LYEncrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5E592E3072A60099C5B6D9E287AE6 /* LYEncrypt-dummy.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B7C80D1A4321F8DDC639EA4FF811BC9B /* Pods-LYEncrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EEB27010F047E1FDBA214C7502D81 /* Pods-LYEncrypt_Tests-dummy.m */; };
-		BDC351ADDC3CD8008AA04B3903AA0749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D0B9C482D199784BB7CC40033AE66365 /* Pods-LYEncrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95798866326C29AD51044BAA40BE3389 /* Pods-LYEncrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E69AE4CF32B499F644BFB58BB33AE934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		E95838CBA57C25ECC26B68E2693AF28E /* Pods-LYEncrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696CDBEB05766B04AB44C755EEBBC9DD /* Pods-LYEncrypt_Example-dummy.m */; };
-		EAD675B688A980AD5993360CB84A4F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		053C5395BFFEEF2E54A54AA1D625F161 /* XZCIGDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF5F2231076B988E28251CFDA235127 /* XZCIGDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		054759CB110D9D02705D88D1B0DD8525 /* Pods-LYEncrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC33AECAD28CAA0783A0A4E3C747FC7 /* Pods-LYEncrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AD9B40C4A1D6408C154F960166B1A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		540260D1A1E3628FF3E9739C932EA8CE /* Pods-LYEncrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154B0B506BF6A8B89369DE5C8E156DAC /* Pods-LYEncrypt_Tests-dummy.m */; };
+		62B3AB09ECDBD62723611268707B9538 /* LYEncrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EB070C260195B6169964B24BA15195 /* LYEncrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD32CDEEB18C70FEEB78D5F706A0D69 /* LYEncrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3595C86520E695AEF534C283D34EDE4 /* LYEncrypt-dummy.m */; };
+		A472C9ACF8A70626ACCDE91971547A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B9454B6C17A8347D9963CFD74C16F7FF /* XZCIGDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28F7A53A66DE2D4B7DD3DAA9059D0C /* XZCIGDataSource.m */; };
+		BDC351ADDC3CD8008AA04B3903AA0749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E95838CBA57C25ECC26B68E2693AF28E /* Pods-LYEncrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422AF37501B26121D3F0E7EE9D1BBCB0 /* Pods-LYEncrypt_Example-dummy.m */; };
+		FA32F1C9033F1131BFC2773BD30B4A2C /* Pods-LYEncrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA033582E4E5829A1085886DBF63208A /* Pods-LYEncrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D24838DFC84B069FEECEC32050DAEF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FAC1A61783E72F1F6CC4D402EE6AC5A;
-			remoteInfo = "Pods-LYEncrypt_Example";
-		};
-		B737FB0301FED588EA5CA4F15C690F7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
 		C68703E36F83F2FB739820BC0A12B44A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -63,68 +28,49 @@
 			remoteGlobalIDString = 2A5213B7DFCA26A83048F5F997A292EB;
 			remoteInfo = LYEncrypt;
 		};
+		CB9C26598CDF4588A8145680B1F9DCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAC1A61783E72F1F6CC4D402EE6AC5A;
+			remoteInfo = "Pods-LYEncrypt_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052848E845FD8ECADB3AA17CF9EF7F62 /* Pods_LYEncrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYEncrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		24B0D3F89B7563A433DC00B4B7E54098 /* Pods-LYEncrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYEncrypt_Example-umbrella.h"; sourceTree = "<group>"; };
-		28C9BFBC1FE70DEFFB58C418EB92FDE3 /* Pods_LYEncrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYEncrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DC5248A6647A2619261D854DD1CF5E /* Pods-LYEncrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYEncrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3AC1D07266040E170BE32DF09179137A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		47067663974C3311CB7F17A56F52FC1B /* Pods-LYEncrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYEncrypt_Tests.modulemap"; sourceTree = "<group>"; };
-		477AE6B8BD072A2A7B7298C2D6715A2F /* Pods-LYEncrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Example-Info.plist"; sourceTree = "<group>"; };
-		4D8E651F17556332B61271AFB726960F /* LYEncrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYEncrypt-prefix.pch"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		68FF94E6F3EAD9F7B8E074DC2BE5459E /* Pods-LYEncrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		696CDBEB05766B04AB44C755EEBBC9DD /* Pods-LYEncrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYEncrypt_Example-dummy.m"; sourceTree = "<group>"; };
-		6D117638205A668E3BB99867D07F1AB7 /* Pods-LYEncrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYEncrypt_Example.modulemap"; sourceTree = "<group>"; };
-		6E7DDDD369E338F6BDE6D7B37F28DFAB /* LYEncrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYEncrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		7725AB7F840A016A78601EE300713BA4 /* LYEncrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYEncrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		821F01E0259773060064127D /* XZCIGDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCIGDataSource.m; path = LYEncrypt/Classes/XZCIGDataSource.m; sourceTree = "<group>"; };
-		821F01E1259773060064127D /* XZCIGDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCIGDataSource.h; path = LYEncrypt/Classes/XZCIGDataSource.h; sourceTree = "<group>"; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		9431F87CAC150AD45DDA0D5D2289D50B /* Pods-LYEncrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		952D640FBF55FBAB1D0F92EFEB01D2D1 /* Pods-LYEncrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		95798866326C29AD51044BAA40BE3389 /* Pods-LYEncrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYEncrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9B37682B44C64589F4A1AA7E82DF3BAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D281849DB7C026A600CDCBFF2980485 /* LYEncrypt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYEncrypt.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A36C8CB56E980DEE94AB80BD6C0ADBF8 /* Pods-LYEncrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		B0B855BA1B6C9464CCD01BF131E9A023 /* LYEncrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYEncrypt.modulemap; sourceTree = "<group>"; };
-		B747EBF8769213007F2F73744D4303D7 /* Pods-LYEncrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYEncrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D18FEA211E663766EF9065DA7CEFED39 /* Pods-LYEncrypt_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYEncrypt_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D4A4DEEEDB1F257965D51BB16E201025 /* Pods-LYEncrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D7CC3558123474440939D0CEC43133CF /* Pods-LYEncrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Tests-Info.plist"; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E1D5E592E3072A60099C5B6D9E287AE6 /* LYEncrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYEncrypt-dummy.m"; sourceTree = "<group>"; };
-		E29EEB27010F047E1FDBA214C7502D81 /* Pods-LYEncrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYEncrypt_Tests-dummy.m"; sourceTree = "<group>"; };
-		E33B26E1F76DC0C2E7B780466CF05313 /* LYEncrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYEncrypt-Info.plist"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		EB6AD57DC93D7B8142F5FFED1448E576 /* Pods-LYEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE687E67F51C0F2ADCADAD6B5667F01E /* Pods-LYEncrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYEncrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		FEA1F44B989787D98EA5F54471ECCFE7 /* LYEncrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYEncrypt-umbrella.h"; sourceTree = "<group>"; };
+		052848E845FD8ECADB3AA17CF9EF7F62 /* Pods_LYEncrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYEncrypt_Tests.framework; path = "Pods-LYEncrypt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC33AECAD28CAA0783A0A4E3C747FC7 /* Pods-LYEncrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYEncrypt_Example-umbrella.h"; sourceTree = "<group>"; };
+		0C28F7A53A66DE2D4B7DD3DAA9059D0C /* XZCIGDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XZCIGDataSource.m; path = LYEncrypt/Classes/XZCIGDataSource.m; sourceTree = "<group>"; };
+		1406CFE539330EAFE409005814A6A9E3 /* Pods-LYEncrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		154B0B506BF6A8B89369DE5C8E156DAC /* Pods-LYEncrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYEncrypt_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DC4A8D0C9C6847A58B0170C73C27A8C /* LYEncrypt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYEncrypt.xcconfig; sourceTree = "<group>"; };
+		23040255194A355631B9710CA66A08E0 /* LYEncrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYEncrypt-Info.plist"; sourceTree = "<group>"; };
+		28C9BFBC1FE70DEFFB58C418EB92FDE3 /* Pods_LYEncrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYEncrypt_Example.framework; path = "Pods-LYEncrypt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2956C6AB1176AC669012AAD79CD3619C /* LYEncrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYEncrypt.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		370CC8C4CD6AF7054938ECD8D14997C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		422AF37501B26121D3F0E7EE9D1BBCB0 /* Pods-LYEncrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYEncrypt_Example-dummy.m"; sourceTree = "<group>"; };
+		584232A660459A32A7969647E58CA254 /* Pods-LYEncrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYEncrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58FEE2A35E314B4D7C2FDA4D5D45B9F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EF5F2231076B988E28251CFDA235127 /* XZCIGDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XZCIGDataSource.h; path = LYEncrypt/Classes/XZCIGDataSource.h; sourceTree = "<group>"; };
+		62EB070C260195B6169964B24BA15195 /* LYEncrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYEncrypt-umbrella.h"; sourceTree = "<group>"; };
+		6D4CB99277161DDC160568C03A865A4B /* Pods-LYEncrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYEncrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74A71BC3F7549278B2A7A13F750619E1 /* Pods-LYEncrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYEncrypt_Example.modulemap"; sourceTree = "<group>"; };
+		7725AB7F840A016A78601EE300713BA4 /* LYEncrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYEncrypt.framework; path = LYEncrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D788019F888E236BE12225E723E9106 /* Pods-LYEncrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYEncrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84C10AC68D64F30FC1BBEB1966B12A28 /* Pods-LYEncrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D140CCBFB4A64CC35615893D8916B13 /* Pods-LYEncrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Tests-Info.plist"; sourceTree = "<group>"; };
+		8D4B3962F9F5E37D4079DB4BF8934EF7 /* Pods-LYEncrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90B4CBFB8172774AB65B3F245D28FF88 /* LYEncrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYEncrypt-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7141C0A83250CEF4AFD794AA854B983 /* Pods-LYEncrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Example-Info.plist"; sourceTree = "<group>"; };
+		AE0B038CAC9BDAE5F03D1360440A1C0F /* Pods-LYEncrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A9FE494C2AC28AEFF6C7A2336F5F08 /* Pods-LYEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3595C86520E695AEF534C283D34EDE4 /* LYEncrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYEncrypt-dummy.m"; sourceTree = "<group>"; };
+		E4C6F583509937BE58F06BA32A865842 /* Pods-LYEncrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYEncrypt_Tests.modulemap"; sourceTree = "<group>"; };
+		E9DCEA1D12E8C74FF354883061C5F12D /* LYEncrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYEncrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA033582E4E5829A1085886DBF63208A /* Pods-LYEncrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYEncrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EB1406F714896DA301D45B2F38C20180 /* Pods-LYEncrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYEncrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,201 +82,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27E3B2035E9FF819124C4612B03FA606 /* Frameworks */ = {
+		3027A52859B73625CE708D1436D935D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E69AE4CF32B499F644BFB58BB33AE934 /* Foundation.framework in Frameworks */,
+				2AD9B40C4A1D6408C154F960166B1A3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E18213DD0711729C80F8891B634B40D4 /* Frameworks */ = {
+		933A66A6264F7EAEC06B9865E1AF6BC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD675B688A980AD5993360CB84A4F91 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+				A472C9ACF8A70626ACCDE91971547A30 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0630FE3C701DD172E3DACDCD443E078F /* Pods-LYEncrypt_Tests */ = {
+		044E662C3CAD6D103FB5D7A5CDDA7103 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				47067663974C3311CB7F17A56F52FC1B /* Pods-LYEncrypt_Tests.modulemap */,
-				B747EBF8769213007F2F73744D4303D7 /* Pods-LYEncrypt_Tests-acknowledgements.markdown */,
-				68FF94E6F3EAD9F7B8E074DC2BE5459E /* Pods-LYEncrypt_Tests-acknowledgements.plist */,
-				E29EEB27010F047E1FDBA214C7502D81 /* Pods-LYEncrypt_Tests-dummy.m */,
-				D18FEA211E663766EF9065DA7CEFED39 /* Pods-LYEncrypt_Tests-frameworks.sh */,
-				D7CC3558123474440939D0CEC43133CF /* Pods-LYEncrypt_Tests-Info.plist */,
-				95798866326C29AD51044BAA40BE3389 /* Pods-LYEncrypt_Tests-umbrella.h */,
-				EB6AD57DC93D7B8142F5FFED1448E576 /* Pods-LYEncrypt_Tests.debug.xcconfig */,
-				952D640FBF55FBAB1D0F92EFEB01D2D1 /* Pods-LYEncrypt_Tests.release.xcconfig */,
-			);
-			name = "Pods-LYEncrypt_Tests";
-			path = "Target Support Files/Pods-LYEncrypt_Tests";
-			sourceTree = "<group>";
-		};
-		24F054E1D27DEFCA5C74BC302F0931FD /* Pods-LYEncrypt_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6D117638205A668E3BB99867D07F1AB7 /* Pods-LYEncrypt_Example.modulemap */,
-				EE687E67F51C0F2ADCADAD6B5667F01E /* Pods-LYEncrypt_Example-acknowledgements.markdown */,
-				9431F87CAC150AD45DDA0D5D2289D50B /* Pods-LYEncrypt_Example-acknowledgements.plist */,
-				696CDBEB05766B04AB44C755EEBBC9DD /* Pods-LYEncrypt_Example-dummy.m */,
-				34DC5248A6647A2619261D854DD1CF5E /* Pods-LYEncrypt_Example-frameworks.sh */,
-				477AE6B8BD072A2A7B7298C2D6715A2F /* Pods-LYEncrypt_Example-Info.plist */,
-				24B0D3F89B7563A433DC00B4B7E54098 /* Pods-LYEncrypt_Example-umbrella.h */,
-				D4A4DEEEDB1F257965D51BB16E201025 /* Pods-LYEncrypt_Example.debug.xcconfig */,
-				A36C8CB56E980DEE94AB80BD6C0ADBF8 /* Pods-LYEncrypt_Example.release.xcconfig */,
-			);
-			name = "Pods-LYEncrypt_Example";
-			path = "Target Support Files/Pods-LYEncrypt_Example";
-			sourceTree = "<group>";
-		};
-		27997E56F4C51D8F5C5634923852C9F6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0B855BA1B6C9464CCD01BF131E9A023 /* LYEncrypt.modulemap */,
-				9D281849DB7C026A600CDCBFF2980485 /* LYEncrypt.xcconfig */,
-				E1D5E592E3072A60099C5B6D9E287AE6 /* LYEncrypt-dummy.m */,
-				E33B26E1F76DC0C2E7B780466CF05313 /* LYEncrypt-Info.plist */,
-				4D8E651F17556332B61271AFB726960F /* LYEncrypt-prefix.pch */,
-				FEA1F44B989787D98EA5F54471ECCFE7 /* LYEncrypt-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LYEncrypt";
-			sourceTree = "<group>";
-		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		5ACCDD57F7D3263742258F20D1A7E9DF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B727E761A5072C864EE458928B568F93 /* LYEncrypt */,
+				454B655DCE7E0D63A943643AFD3AB696 /* LYEncrypt */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+		197D97005D3644FAD9CE9E41096566D2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		B16B3015A53E6A1E76C517E3955C4BA9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				24F054E1D27DEFCA5C74BC302F0931FD /* Pods-LYEncrypt_Example */,
-				0630FE3C701DD172E3DACDCD443E078F /* Pods-LYEncrypt_Tests */,
+				4C831808A25101E29E6BF0223EB33576 /* Pods-LYEncrypt_Example */,
+				9C9C71A20F92B9B92E798ECD6C473008 /* Pods-LYEncrypt_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B727E761A5072C864EE458928B568F93 /* LYEncrypt */ = {
+		24E538C0E6016722B11DE880E0C75E1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				821F01E1259773060064127D /* XZCIGDataSource.h */,
-				821F01E0259773060064127D /* XZCIGDataSource.m */,
-				E1A37EF68388363BD2A7B80F9486C6B2 /* Pod */,
-				27997E56F4C51D8F5C5634923852C9F6 /* Support Files */,
-			);
-			name = LYEncrypt;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CF1408CF629C7361332E53B88F7BD30C = {
-			isa = PBXGroup;
-			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5ACCDD57F7D3263742258F20D1A7E9DF /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				D2B7BBF047F050610C4E7D641EDC84BB /* Products */,
-				B16B3015A53E6A1E76C517E3955C4BA9 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D2B7BBF047F050610C4E7D641EDC84BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
 				7725AB7F840A016A78601EE300713BA4 /* LYEncrypt.framework */,
 				28C9BFBC1FE70DEFFB58C418EB92FDE3 /* Pods_LYEncrypt_Example.framework */,
 				052848E845FD8ECADB3AA17CF9EF7F62 /* Pods_LYEncrypt_Tests.framework */,
@@ -338,48 +128,119 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1A37EF68388363BD2A7B80F9486C6B2 /* Pod */ = {
+		3B0B4B8C41F09E33531A19EB643C7E87 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9B37682B44C64589F4A1AA7E82DF3BAB /* LICENSE */,
-				6E7DDDD369E338F6BDE6D7B37F28DFAB /* LYEncrypt.podspec */,
-				3AC1D07266040E170BE32DF09179137A /* README.md */,
+				58FEE2A35E314B4D7C2FDA4D5D45B9F7 /* LICENSE */,
+				E9DCEA1D12E8C74FF354883061C5F12D /* LYEncrypt.podspec */,
+				370CC8C4CD6AF7054938ECD8D14997C5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		454B655DCE7E0D63A943643AFD3AB696 /* LYEncrypt */ = {
 			isa = PBXGroup;
 			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+				5EF5F2231076B988E28251CFDA235127 /* XZCIGDataSource.h */,
+				0C28F7A53A66DE2D4B7DD3DAA9059D0C /* XZCIGDataSource.m */,
+				3B0B4B8C41F09E33531A19EB643C7E87 /* Pod */,
+				878CB421AC75E1F63CA2A0E6837359E5 /* Support Files */,
 			);
-			name = Pods;
+			name = LYEncrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C831808A25101E29E6BF0223EB33576 /* Pods-LYEncrypt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				74A71BC3F7549278B2A7A13F750619E1 /* Pods-LYEncrypt_Example.modulemap */,
+				6D4CB99277161DDC160568C03A865A4B /* Pods-LYEncrypt_Example-acknowledgements.markdown */,
+				8D4B3962F9F5E37D4079DB4BF8934EF7 /* Pods-LYEncrypt_Example-acknowledgements.plist */,
+				422AF37501B26121D3F0E7EE9D1BBCB0 /* Pods-LYEncrypt_Example-dummy.m */,
+				584232A660459A32A7969647E58CA254 /* Pods-LYEncrypt_Example-frameworks.sh */,
+				A7141C0A83250CEF4AFD794AA854B983 /* Pods-LYEncrypt_Example-Info.plist */,
+				0BC33AECAD28CAA0783A0A4E3C747FC7 /* Pods-LYEncrypt_Example-umbrella.h */,
+				84C10AC68D64F30FC1BBEB1966B12A28 /* Pods-LYEncrypt_Example.debug.xcconfig */,
+				1406CFE539330EAFE409005814A6A9E3 /* Pods-LYEncrypt_Example.release.xcconfig */,
+			);
+			name = "Pods-LYEncrypt_Example";
+			path = "Target Support Files/Pods-LYEncrypt_Example";
+			sourceTree = "<group>";
+		};
+		878CB421AC75E1F63CA2A0E6837359E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2956C6AB1176AC669012AAD79CD3619C /* LYEncrypt.modulemap */,
+				1DC4A8D0C9C6847A58B0170C73C27A8C /* LYEncrypt.xcconfig */,
+				E3595C86520E695AEF534C283D34EDE4 /* LYEncrypt-dummy.m */,
+				23040255194A355631B9710CA66A08E0 /* LYEncrypt-Info.plist */,
+				90B4CBFB8172774AB65B3F245D28FF88 /* LYEncrypt-prefix.pch */,
+				62EB070C260195B6169964B24BA15195 /* LYEncrypt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYEncrypt";
+			sourceTree = "<group>";
+		};
+		9C9C71A20F92B9B92E798ECD6C473008 /* Pods-LYEncrypt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6F583509937BE58F06BA32A865842 /* Pods-LYEncrypt_Tests.modulemap */,
+				7D788019F888E236BE12225E723E9106 /* Pods-LYEncrypt_Tests-acknowledgements.markdown */,
+				EB1406F714896DA301D45B2F38C20180 /* Pods-LYEncrypt_Tests-acknowledgements.plist */,
+				154B0B506BF6A8B89369DE5C8E156DAC /* Pods-LYEncrypt_Tests-dummy.m */,
+				8D140CCBFB4A64CC35615893D8916B13 /* Pods-LYEncrypt_Tests-Info.plist */,
+				EA033582E4E5829A1085886DBF63208A /* Pods-LYEncrypt_Tests-umbrella.h */,
+				D4A9FE494C2AC28AEFF6C7A2336F5F08 /* Pods-LYEncrypt_Tests.debug.xcconfig */,
+				AE0B038CAC9BDAE5F03D1360440A1C0F /* Pods-LYEncrypt_Tests.release.xcconfig */,
+			);
+			name = "Pods-LYEncrypt_Tests";
+			path = "Target Support Files/Pods-LYEncrypt_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				044E662C3CAD6D103FB5D7A5CDDA7103 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				24E538C0E6016722B11DE880E0C75E1F /* Products */,
+				197D97005D3644FAD9CE9E41096566D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		286FB6D7A678776C3C2A8F6FE5D9C6D5 /* Headers */ = {
+		2D4AB3BC2D773F8A98A58571F2EDEFF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B9C482D199784BB7CC40033AE66365 /* Pods-LYEncrypt_Tests-umbrella.h in Headers */,
+				62B3AB09ECDBD62723611268707B9538 /* LYEncrypt-umbrella.h in Headers */,
+				053C5395BFFEEF2E54A54AA1D625F161 /* XZCIGDataSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		429292AB12C9BE7EE654EDAE9B47990A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				821F01E3259773060064127D /* XZCIGDataSource.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				FA32F1C9033F1131BFC2773BD30B4A2C /* Pods-LYEncrypt_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,25 +252,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3FE177C90ABD46732BA4C74D667589A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2451A991C7F5F7A5A3EB26E42D4A1A46 /* LYEncrypt-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2A5213B7DFCA26A83048F5F997A292EB /* LYEncrypt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F90139359AA7D733BACB3EA7C2BE9D6 /* Build configuration list for PBXNativeTarget "LYEncrypt" */;
+			buildConfigurationList = 7F19686BAECC9D5C6CB8AE8C1D516642 /* Build configuration list for PBXNativeTarget "LYEncrypt" */;
 			buildPhases = (
-				A3FE177C90ABD46732BA4C74D667589A /* Headers */,
-				7164FFCC26645C75E751182F6A383066 /* Sources */,
-				27E3B2035E9FF819124C4612B03FA606 /* Frameworks */,
-				10A9A4E627EDEA4B6CE1785A46F0264A /* Resources */,
+				2D4AB3BC2D773F8A98A58571F2EDEFF9 /* Headers */,
+				BE287AB56354735888CCB8ED7754D6B3 /* Sources */,
+				3027A52859B73625CE708D1436D935D2 /* Frameworks */,
+				6DB9F783EE0B6CEABE720A098D2E81ED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -439,38 +292,19 @@
 			productReference = 28C9BFBC1FE70DEFFB58C418EB92FDE3 /* Pods_LYEncrypt_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B1AB84FE757C59D488EA0757B53A1E87 /* Pods-LYEncrypt_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2141A51FC2E6E7705C733A13E9B71B47 /* Build configuration list for PBXNativeTarget "Pods-LYEncrypt_Tests" */;
+			buildConfigurationList = E2DFA82E3C7B42FDB1366D724E343589 /* Build configuration list for PBXNativeTarget "Pods-LYEncrypt_Tests" */;
 			buildPhases = (
-				286FB6D7A678776C3C2A8F6FE5D9C6D5 /* Headers */,
-				470BE29FFBF3CB9F546DF2334A550446 /* Sources */,
-				E18213DD0711729C80F8891B634B40D4 /* Frameworks */,
-				90D0C8C441792806726A3D9DF65DFB58 /* Resources */,
+				429292AB12C9BE7EE654EDAE9B47990A /* Headers */,
+				88EE22F8292EB4DCDBAB707F90C016E3 /* Sources */,
+				933A66A6264F7EAEC06B9865E1AF6BC0 /* Frameworks */,
+				A92E6854A9010B8651F8294F58C7C26C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				921B2D4EC9BEE610DC2FE9CFC1006F81 /* PBXTargetDependency */,
-				5A3CFBEC3FFA859B6B70180205FBD60F /* PBXTargetDependency */,
+				21A24C61420FBA7F98D9531DB3DFF80B /* PBXTargetDependency */,
 			);
 			name = "Pods-LYEncrypt_Tests";
 			productName = "Pods-LYEncrypt_Tests";
@@ -495,11 +329,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D2B7BBF047F050610C4E7D641EDC84BB /* Products */;
+			productRefGroup = 24E538C0E6016722B11DE880E0C75E1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				2A5213B7DFCA26A83048F5F997A292EB /* LYEncrypt */,
 				3FAC1A61783E72F1F6CC4D402EE6AC5A /* Pods-LYEncrypt_Example */,
 				B1AB84FE757C59D488EA0757B53A1E87 /* Pods-LYEncrypt_Tests */,
@@ -508,14 +341,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10A9A4E627EDEA4B6CE1785A46F0264A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		6DB9F783EE0B6CEABE720A098D2E81ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90D0C8C441792806726A3D9DF65DFB58 /* Resources */ = {
+		A92E6854A9010B8651F8294F58C7C26C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,36 +365,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		470BE29FFBF3CB9F546DF2334A550446 /* Sources */ = {
+		88EE22F8292EB4DCDBAB707F90C016E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C80D1A4321F8DDC639EA4FF811BC9B /* Pods-LYEncrypt_Tests-dummy.m in Sources */,
+				540260D1A1E3628FF3E9739C932EA8CE /* Pods-LYEncrypt_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7164FFCC26645C75E751182F6A383066 /* Sources */ = {
+		BE287AB56354735888CCB8ED7754D6B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58015D7AC40F260307825F15E4678DB /* LYEncrypt-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				821F01E2259773060064127D /* XZCIGDataSource.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				7FD32CDEEB18C70FEEB78D5F706A0D69 /* LYEncrypt-dummy.m in Sources */,
+				B9454B6C17A8347D9963CFD74C16F7FF /* XZCIGDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,11 +393,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A3CFBEC3FFA859B6B70180205FBD60F /* PBXTargetDependency */ = {
+		21A24C61420FBA7F98D9531DB3DFF80B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LYEncrypt_Example";
 			target = 3FAC1A61783E72F1F6CC4D402EE6AC5A /* Pods-LYEncrypt_Example */;
-			targetProxy = 5D24838DFC84B069FEECEC32050DAEF8 /* PBXContainerItemProxy */;
+			targetProxy = CB9C26598CDF4588A8145680B1F9DCD3 /* PBXContainerItemProxy */;
 		};
 		881028B518AD69CDA34BBBC0D02107D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -595,18 +405,12 @@
 			target = 2A5213B7DFCA26A83048F5F997A292EB /* LYEncrypt */;
 			targetProxy = C68703E36F83F2FB739820BC0A12B44A /* PBXContainerItemProxy */;
 		};
-		921B2D4EC9BEE610DC2FE9CFC1006F81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = B737FB0301FED588EA5CA4F15C690F7F /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		507E3B1697707E16C257FFC4BC76B9C9 /* Release */ = {
+		42251019904FE1E657CF6BF28D5404FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D281849DB7C026A600CDCBFF2980485 /* LYEncrypt.xcconfig */;
+			baseConfigurationReference = 1DC4A8D0C9C6847A58B0170C73C27A8C /* LYEncrypt.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -636,10 +440,11 @@
 			};
 			name = Release;
 		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+		5B5D210300102FAB3D647E202820EAE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = D4A9FE494C2AC28AEFF6C7A2336F5F08 /* Pods-LYEncrypt_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -649,28 +454,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYEncrypt_Tests/Pods-LYEncrypt_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYEncrypt_Tests/Pods-LYEncrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		79B56ABF164AB190F17746297E25F2A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4A4DEEEDB1F257965D51BB16E201025 /* Pods-LYEncrypt_Example.debug.xcconfig */;
+			baseConfigurationReference = 84C10AC68D64F30FC1BBEB1966B12A28 /* Pods-LYEncrypt_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -754,7 +559,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -824,9 +630,9 @@
 			};
 			name = Debug;
 		};
-		9E9E9E94007FC1DE96854DB23906F819 /* Debug */ = {
+		A91F8CBB7B9891D970310E7FD9EA8BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D281849DB7C026A600CDCBFF2980485 /* LYEncrypt.xcconfig */;
+			baseConfigurationReference = 1DC4A8D0C9C6847A58B0170C73C27A8C /* LYEncrypt.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -855,73 +661,9 @@
 			};
 			name = Debug;
 		};
-		D8BC1275B87D60346853476EB52ABE08 /* Debug */ = {
+		DFA6BD527DD0515861ECA854060708B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6AD57DC93D7B8142F5FFED1448E576 /* Pods-LYEncrypt_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYEncrypt_Tests/Pods-LYEncrypt_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYEncrypt_Tests/Pods-LYEncrypt_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EF0AD8D908AA66C3AFD1F843F86934C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 952D640FBF55FBAB1D0F92EFEB01D2D1 /* Pods-LYEncrypt_Tests.release.xcconfig */;
+			baseConfigurationReference = AE0B038CAC9BDAE5F03D1360440A1C0F /* Pods-LYEncrypt_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -955,7 +697,7 @@
 		};
 		F7CC48E283036AE1672DF4FFDEE02D0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36C8CB56E980DEE94AB80BD6C0ADBF8 /* Pods-LYEncrypt_Example.release.xcconfig */;
+			baseConfigurationReference = 1406CFE539330EAFE409005814A6A9E3 /* Pods-LYEncrypt_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -990,15 +732,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2141A51FC2E6E7705C733A13E9B71B47 /* Build configuration list for PBXNativeTarget "Pods-LYEncrypt_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8BC1275B87D60346853476EB52ABE08 /* Debug */,
-				EF0AD8D908AA66C3AFD1F843F86934C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		473EE9FB50AC7996493D28310320B057 /* Build configuration list for PBXNativeTarget "Pods-LYEncrypt_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1017,20 +750,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F90139359AA7D733BACB3EA7C2BE9D6 /* Build configuration list for PBXNativeTarget "LYEncrypt" */ = {
+		7F19686BAECC9D5C6CB8AE8C1D516642 /* Build configuration list for PBXNativeTarget "LYEncrypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E9E9E94007FC1DE96854DB23906F819 /* Debug */,
-				507E3B1697707E16C257FFC4BC76B9C9 /* Release */,
+				A91F8CBB7B9891D970310E7FD9EA8BB6 /* Debug */,
+				42251019904FE1E657CF6BF28D5404FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		E2DFA82E3C7B42FDB1366D724E343589 /* Build configuration list for PBXNativeTarget "Pods-LYEncrypt_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				5B5D210300102FAB3D647E202820EAE1 /* Debug */,
+				DFA6BD527DD0515861ECA854060708B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
